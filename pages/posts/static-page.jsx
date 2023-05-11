@@ -3,6 +3,7 @@ import Layout from "../../components/layout";
 import Head from "next/head";
 import axios from "axios";
 import styles from "../../styles/PostsPage.module.css";
+import MailForm from "../../components/mailForm";
 
 const StaticPage = ({ postsData }) => {
  // or props
@@ -18,6 +19,7 @@ const StaticPage = ({ postsData }) => {
    <Link className={styles.postspage__menulink} href="/">
     ← Home
    </Link>
+   <MailForm />
    <div className={styles.postspage__postscontainer}>
     {postsData.map((post, index) => (
      <div
