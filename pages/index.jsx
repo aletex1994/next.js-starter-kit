@@ -37,13 +37,13 @@ export default function Home() {
       <h3>
        {" "}
        <Link
-        className={`${styles["home__card--title"]}`}
+        className={`${styles["home__card-title"]}`}
         href="/posts/static-page"
        >
         Static page &rarr;
        </Link>
       </h3>
-      <p className={`${styles["home__card--text"]}`}>
+      <p className={`${styles["home__card-text"]}`}>
        Pre-rendering method that generates the HTML at build time. The
        pre-rendered HTML is then reused on each request.
       </p>
@@ -51,14 +51,11 @@ export default function Home() {
      <div className={`${styles.home__card}`}>
       <h3>
        {" "}
-       <Link
-        className={`${styles["home__card--title"]}`}
-        href="/posts/ssr-page"
-       >
+       <Link className={`${styles["home__card-title"]}`} href="/posts/ssr-page">
         SSR page &rarr;
        </Link>
       </h3>
-      <p className={`${styles["home__card--text"]}`}>
+      <p className={`${styles["home__card-text"]}`}>
        Pre-rendering method that generates the HTML on each request.
       </p>
      </div>

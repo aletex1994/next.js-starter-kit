@@ -22,15 +22,15 @@ const StaticPage = ({ postsData }) => {
     {postsData.map((post, index) => (
      <div
       key={`${post.id}_${index}`}
-      className={`${styles["postspage__postscontainer--post"]}`}
+      className={`${styles["postspage__postscontainer-post"]}`}
      >
-      <h3 className={`${styles["postspage__postscontainer--post__title"]}`}>
+      <h3 className={`${styles["postspage__postscontainer-post__title"]}`}>
        {post.title}
       </h3>
-      <p className={`${styles["postspage__postscontainer--post__text"]}`}>
+      <p className={`${styles["postspage__postscontainer-post__text"]}`}>
        {post.body}
       </p>
-      <div className={`${styles["postspage__postscontainer--post__link"]}`}>
+      <div className={`${styles["postspage__postscontainer-post__link"]}`}>
        <Link href={`/posts/${post.id}`}>Read full post 👓 </Link>
       </div>
       <hr />

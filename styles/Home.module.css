@@ -8,7 +8,9 @@
 }
 
 .home__title {
- color: #000;
+ background: linear-gradient(to right, #ed55eb, #36fb9b, #ffec06);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
  text-decoration: none;
  margin: 0 0 1rem;
  line-height: 1.15;
@@ -61,12 +63,12 @@
  border-color: #004e06;
 }
 
-.home__card--text {
+.home__card-text {
  margin: 0;
  font-size: 1.25rem;
  line-height: 1.5;
 }
-.home__card--title {
+.home__card-title {
  color: #004e06;
  margin: 0 0 1rem 0;
  font-size: 1.5rem;

@@ -14,27 +14,27 @@
  gap: 16px;
 }
 
-.postspage__postscontainer--post {
+.postspage__postscontainer-post {
  padding: 1rem;
 }
 
-.postspage__postscontainer--post__title {
+.postspage__postscontainer-post__title {
  color: #004e06;
  margin: 0 0 1rem 0;
 }
 
-.postspage__postscontainer--post__text {
+.postspage__postscontainer-post__text {
  height: auto;
  overflow: hidden;
  text-overflow: ellipsis;
  white-space: nowrap;
 }
 
-.postspage__postscontainer--post__link {
+.postspage__postscontainer-post__link {
  color: #004e06;
  text-align: end;
  font-size: 12px;
 }
-.postspage__postscontainer--post__link a {
+.postspage__postscontainer-post__link a {
  color: #004e06;
 }
