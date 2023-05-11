@@ -1,0 +1,40 @@
+.postspage__title {
+ color: #004e06;
+ margin: 0 0 1rem 0;
+ font-size: 1.5rem;
+}
+
+.postspage__menulink {
+ color: #004e06;
+}
+
+.postspage__postscontainer {
+ display: flex;
+ flex-flow: column;
+ gap: 16px;
+}
+
+.postspage__postscontainer--post {
+ padding: 1rem;
+}
+
+.postspage__postscontainer--post__title {
+ color: #004e06;
+ margin: 0 0 1rem 0;
+}
+
+.postspage__postscontainer--post__text {
+ height: auto;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+}
+
+.postspage__postscontainer--post__link {
+ color: #004e06;
+ text-align: end;
+ font-size: 12px;
+}
+.postspage__postscontainer--post__link a {
+ color: #004e06;
+}
