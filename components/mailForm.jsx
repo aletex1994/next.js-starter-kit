@@ -8,7 +8,7 @@ export default function MailForm() {
  const handleSubmit = async (e) => {
   e.preventDefault();
   try {
-   const response = await axios.post("/api/save-mail", { data: inputValue });
+   const response = await axios.post("/api/mail", { data: inputValue });
    console.log(response.data);
   } catch (error) {
    console.error(error);
